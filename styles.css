@@ -5,51 +5,67 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Helvetica;
 }
+body{
+    background-color: black;
+}
+
 header
 {
-    padding: 20px 30px;
-    background-color: greenyellow;
+    
     display: flex;
     flex-wrap: wrap;
-
+    background: url("background-netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.top-container
+{
+    display: flex;
+    width: 100vw;
 }
 .left-header
 {
     margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .right-header
 {
     margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+
 }
 button{
     background-color: red;  
     color: white;
-    padding: 6px 15px;
+    padding: 4px 13px;
     border-radius: 10%;
+}
+header button
+{
+    font-size: 1.0rem;
 }
 .left-header img
 {
-    width: 100px;
+    width: 80px;
 }
 .divider
 {
     width: 100vw;
     height: 90vh;
     text-align: center;
-    background-image: url("background-netflix.jpg");
-    background-repeat: no-repeat;
-    opacity: 1;
-    background-size: cover;
+    
     display: flex;
+    flex-wrap: wrap;
 }
 .text-divider
 {
     margin: auto ;
     width: 75vw;
-    height: 50vh;
-    /*background-color: blue;*/
     color: white;
 }
 .title
@@ -57,18 +73,29 @@ button{
     font-size: 3.6rem;
     margin: 10px 0px;
 }
+.text-divider h1{
+    font-size: 2.8rem;
+}
 h2{
-    font-size: 2.4rem;
+    font-size: 1.3rem;
 }
 h3{
-    font-size: 2.0 rem;
+    font-size: 1.2rem;
 }
 h2,h3
 {
-    margin: 15px 0px
+    margin: 15px 0px;
+    font-style: normal;
 }
 .text-divider input
 {
     width: 95%;
     padding: 5px 5px;
+    margin-bottom: 5px;
+}
+.line-divider
+{
+    width: 100%;
+    height: 6px;
+    background-color: rgb(36, 36, 39);
 }
