@@ -99,27 +99,3 @@ h2,h3
     height: 6px;
     background-color: rgb(36, 36, 39);
 }
-<<<<<<< HEAD:style-phone.css
-=======
-
-
-main .divider
-{
-    width: 100vw;
-    height: 90vh;
-    text-align: center;
-    
-    display: flex;
-    flex-wrap: wrap;
-}
-main .text-divider
-{
-    margin: auto ;
-    width: 75vw;
-    color: white;
-}
-main img
-{
-    width: 70vw;
-}
->>>>>>> eb041850a2df14fdec34a0f08a69a4bc283666ce:styles.css
