@@ -53,7 +53,7 @@ header button
 {
     width: 80px;
 }
-.divider
+header .divider
 {
     width: 100vw;
     height: 90vh;
@@ -62,7 +62,7 @@ header button
     display: flex;
     flex-wrap: wrap;
 }
-.text-divider
+header .text-divider
 {
     margin: auto ;
     width: 75vw;
@@ -73,14 +73,14 @@ header button
     font-size: 3.6rem;
     margin: 10px 0px;
 }
-.text-divider h1{
-    font-size: 2.8rem;
+header h1{
+    font-size: 4.0rem;
 }
-h2{
-    font-size: 1.3rem;
+header h2{
+    font-size: 3.6 rem;
 }
-h3{
-    font-size: 1.2rem;
+header h3{
+    font-size: 2.0rem;
 }
 h2,h3
 {
@@ -99,3 +99,27 @@ h2,h3
     height: 6px;
     background-color: rgb(36, 36, 39);
 }
+<<<<<<< HEAD:style-phone.css
+=======
+
+
+main .divider
+{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+main .text-divider
+{
+    margin: auto ;
+    width: 75vw;
+    color: white;
+}
+main img
+{
+    width: 70vw;
+}
+>>>>>>> eb041850a2df14fdec34a0f08a69a4bc283666ce:styles.css
